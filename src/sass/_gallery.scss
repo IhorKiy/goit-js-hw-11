@@ -4,8 +4,26 @@ body{
 
 
 img {
-    width: 150px;
+    background-color: gray;
+    width: 262px;
 };
+
+.search-form{
+border: 5px solid grey;
+    margin:15px;
+    padding: 10px;
+}
+
+input{
+    width: 300px;
+    margin-right:30px ;
+    margin-left: 30px;
+}
+
+button{
+    background-color: rgb(69, 159, 215);
+   font-size: larger;
+}
 
 .btn_hidden{
 visibility: hidden;
@@ -29,4 +47,10 @@ visibility: hidden;
     gap: 8px;
     text-align: start;
 }
+
+.load-more{
+    display: block;
+margin-right: auto;
+margin-left: auto;
+    }
 
