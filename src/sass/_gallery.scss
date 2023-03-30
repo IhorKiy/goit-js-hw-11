@@ -1,0 +1,32 @@
+body{
+    padding: 10px;
+};
+
+
+img {
+    width: 150px;
+};
+
+.btn_hidden{
+visibility: hidden;
+}
+
+.gallery{
+    gap: 10px;
+        display:inline-flex;
+    flex-wrap: wrap;
+};
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: start;
+}
+
